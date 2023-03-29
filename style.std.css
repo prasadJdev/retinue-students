@@ -1,0 +1,200 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer{
+  background: #b55c6c !important;
+  color: #fff !important;
+  
+}
+.footer p{
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
+  padding: 1rem
+}
+.dimmed,
+.blueBg,
+header {
+  background: #61305d !important;
+  color: #fff !important
+}
+
+#hamburger {
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+/* Banner Area Css */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #61305d
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 0% 45% 0% / 50% 0% 45% 0%;
+  background: #b55c6c
+}
+
+.banner .content h2 {
+  color: #fff;
+  font-size: 50px;
+  margin-top: 56px;
+  padding: 10px;
+}
+
+/*
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25
+}
+*/
+.banner .content {
+  position: relative;
+  max-width: 750px;
+  text-align: center
+}
+
+.banner .content p {
+  color: #f1f1f1;
+  font-size: 15px;
+}
+
+/* Banner Button */
+.banner a {
+  position: relative;
+  padding: 25px;
+  margin: 20px;
+  font-weight: 200;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 40px;
+  background: #61305d;
+  box-shadow: -2px -2px 8px rgba(200, 200, 200, 1),
+    -2px -2px 12px rgba(200, 200, 200, 0.5),
+    inset 2px 2px 4px rgba(200, 200, 200, 0.1),
+    2px 2px 8px rgba(200, 200, 200, 0.15) !important;
+  z-index: 12 !important
+}
+
+.banner a:hover {
+  box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(255, 255, 255, 0.15) !important;
+}
+
+.banner a:hover span {
+  display: inline-block !important;
+  transform: scale(0.98) !important
+}
+
+.navBarBGImage {
+  position: relative !important
+}
+
+.navBarBGImg {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-size: cover;
+  opacity: 0.65
+}
+
+.navBarProfileImg {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+  background-size: cover
+}
+.whoWeAre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.2rem;
+  background: #61305d !important;
+  color: #fff !important
+  
+}
+.whoWeAre .heading{
+  margin: 1rem
+}
+/*
+.whoWeAre:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffb997;
+  border-radius: 0% 50% 50% 0% / 0% 50% 0% 50%
+}
+*/
+.heading {
+  font-size: 2em !important;
+  font-weight: 500;
+  color: #fff
+}
+
+/* Footer */    
+
+
+.social-text {
+  font-size: 1rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.social-icon:hover {
+  color: #fff;
+  border-color: #ded3d3;
+}
+
+@media screen and (max-width: 786px) {
+  .navBarBGImg {
+    position: relative;
+    height: 150px;
+  }
